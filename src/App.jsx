@@ -7,14 +7,15 @@ import FeaturesPage from "./components/Features/FeaturesPage";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import ContactUs from "./components/ContactUs";
-import DashBoard from "./components/DashBoard"; // Uncommented this line
+import DashBoard from "./components/DashBoard";
+
+
 
 const App = () => {
   const location = useLocation();
   const hideNavbarFooter =
-    location.pathname === "/login" ||
-    location.pathname === "/register"; 
-    // location.pathname === "/dashboard"; // Hide navbar and footer on dashboard
+    location.pathname === "/login" || location.pathname === "/register";
+  // location.pathname === "/dashboard"; // Hide navbar and footer on dashboard
 
   return (
     <div>

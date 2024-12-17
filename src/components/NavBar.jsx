@@ -29,7 +29,7 @@ const NavBar = () => {
   return (
     <header className="bg-gradient-to-r from-[#021430] via-[#0f1c47] to-[#021430] fixed top-0 left-0 w-full z-50">
       {/* Navbar for Large Screens */}
-      <nav className="hidden lg:flex justify-between items-center px-8 border-b border-gray-700 text-gray-300">
+      <nav className="hidden lg:flex font-semibold justify-around items-center px-8 border-b border-gray-700 text-gray-300">
         <Link to="/">
           <img
             src="NavBar.png"
